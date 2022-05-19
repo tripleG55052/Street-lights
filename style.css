@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 body {
-    background: #dde7dd;
+    background: #5c98f1;
     font-family: 'Montserrat', sans-serif;
-}
-
+    }
 .container {
-    background: #dde1e7;
+    background: #ffffff;
     width: 320px;
     height: 550px;
     border-radius: .5em;
@@ -16,62 +15,63 @@ body {
     padding: 32px 16px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;  
+    justify-content: space-between;
 }
 
-.container .result {
+  .container .result {
     width: 100%;
     height: 150px;
     box-shadow: inset 2px 2px 5px #babecc,
-                inset -5px -5px 10px #ffffff73;    
-}
-
-.container .result p {
+                inset -5px -5px 10px #ffffff73;
+    
+  }
+  .container .result p {
     font-size: 40pt;
     overflow-y: auto;
-    text-align: right;  
-}
+    text-align: right;
+  }
 
-.container .buttons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1em;
-}
-
-.container .buttons .button, .container .buttons .num-button  {
-    cursor: grab;
-    text-align: center;
-    width: 60px;
-    font-size:18px;
-    height: 60px;
-    display: grid;
-    place-content: center;
-    border-radius: 20%;
-    box-shadow: 2px 2px 5px #babecc,
-                -5px -5px 10px #ffffff73;
-}
-
-.button:hover{
-    color: #3498db;
-    background-color: coral;   
-}
-
-.container .buttons .zero {
-    grid-column: 1/3;
-    width: 100%;
-    font-size:18px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px #babecc,
-                -5px -5px 10px #ffffff73;
-}  
-   
-.action-btn {
-    color: grey;
-    font-weight: bold;
-}
-
-.calc-action-btn{
-    color: #ed11d7;
-    font-size: 20px;
-    font-weight: bold;
-}
+    .container .buttons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1em;
+      }
+      .container .buttons .button, .container .buttons .num-button  {
+        cursor: grab;
+        text-align: center;
+        width: 60px;
+        font-size:18px;
+        height: 60px;
+        display: grid;
+        place-content: center;
+        border-radius: 20%;
+        box-shadow: 2px 2px 5px #0037ff,
+                    -5px -5px 10px #3f42d373;
+      }
+      .button:hover{
+        color: #3498db;
+        background-color: #a3d10d;
+      
+      }
+      .container .buttons .zero {
+        grid-column: 1/ 3;
+        width: 100%;
+        font-size:18px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px #ffbf00,
+                    -5px -5px 10px #879e1373;
+      }
+      
+       
+      .action-btn {
+        color: rgb(251, 197, 0);
+        font-weight: bold;
+      }
+      .calc-action-btn{
+        color: #a3d10d;
+        font-size: 20px;
+        font-weight: bold;
+      }
+  
+  
+  
